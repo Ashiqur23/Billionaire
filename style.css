@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inknut Antiqua';
+}
+.btn-grp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    width: 70% !important;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+.btn-grp button{
+    margin: auto;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+hr{
+    margin: 20px auto;
+    width: 70%;
+    background-color: white;
+    text-align: center;
+}
+.table-container{
+    height: 100%;
+    background-color: rgb(195, 195, 195);
+}
+tr{
+    border-bottom: none !important;
+}
+.table-Head{
+    border-bottom: 2px solid black !important;
+}
+th{
+    border: none;
+}
+td{
+    border: none;
+}
+.table-footer{
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
+.table-footerContent{
+    margin: auto;
+    width: 72%;
+}
+.table-nav input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: rgb(195, 195, 195);
+    padding-left: 5px;
+}
+
+.table-nav img{
+    width: 70px;
+    text-align: end;
+}
+
+i{
+    cursor: pointer;
+}
+.table-data{
+    padding-left: 12px !important;
+}
+main{
+    overflow: hidden !important;
+}
+
+.card-name{
+    color: #D9D9D9;
+
+text-shadow: 5px 6px 7px #D9D9D9;
+}
+
+@media screen and (min-width: 680px) {
+    .card{
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
